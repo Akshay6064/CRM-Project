@@ -13,7 +13,7 @@ public class HomePage extends TestBase{
 
 	//page Objects
 	
-	@FindBy(xpath="//span[text()='Akshay Patel23']")
+	@FindBy(xpath="//span[text()='Akshay Patel']")
 	WebElement usernameLabel;
 	
 	@FindBy(xpath="//span[contains(text(),'Contacts')]")
